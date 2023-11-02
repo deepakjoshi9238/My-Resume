@@ -1,0 +1,137 @@
+.container{
+    width: 78%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-part{
+    width: 65%;
+    margin-top: -40px;
+}
+.left-part{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(37, 28, 52);
+    justify-content: center;
+    color: white;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    line-height: 8px;
+    margin-left: 65px;
+}
+
+.left-part img{
+    border-radius: 2px solid white;   
+    width: 139px;
+    height: 145px;
+    border-radius: 99px;
+    border: 8px solid white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.box h5{
+    background-color: #03e9c7e8;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    width: 190px;
+    border-radius: 16px;
+    font-size: 17px;
+    font-family: fangsong;
+}
+.list{
+    line-height: 18px;
+}
+
+#contact{
+    margin-top: -18px;
+}
+
+.icon{
+    margin-top: -15px;
+}
+
+.icon i{
+    width: 40px;
+    height: 25px;
+}
+
+.right-part h1{
+   font-size: 60px;
+   position: relative;
+   left: 60px;
+}
+
+.right-part h1 span{
+    color: orange;
+}
+
+.right-part h4{
+    margin-top: -40px;
+    margin-left: 67px;
+    font-size: 30px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    color: #444;
+}
+
+th{
+    background-color: #c0d4aa99;
+    color: #b13939d9;
+    font-size: 20px;
+}
+
+.form{
+    border: 1px solid black;
+    width: 400px;
+    background-color: #4f3acc3d;
+    border-radius: 10px;
+}
+
+.form input{
+    background-color: rgba(128, 128, 128, 0.319);
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.submit{
+    background-color: rgba(176, 69, 160, 0.571);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    left: 140px;
+}
+
+.form label{
+    margin-left: 20px;
+}
